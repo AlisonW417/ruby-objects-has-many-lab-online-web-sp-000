@@ -17,8 +17,7 @@ class Post
   end 
   
   def author_name
-    @author = author unless @author
-    author.add_post(self) unless author.books.include?(self)
+    
   end 
   
   
